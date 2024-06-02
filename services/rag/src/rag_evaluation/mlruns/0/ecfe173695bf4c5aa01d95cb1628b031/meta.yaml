@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U087LXC/PycharmProjects/HerculesLaboursRAG/services/rag/src/rag_evaluation/mlruns/0/ecfe173695bf4c5aa01d95cb1628b031/artifacts
+end_time: 1716990108548
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ecfe173695bf4c5aa01d95cb1628b031
+run_name: serious-moth-473
+run_uuid: ecfe173695bf4c5aa01d95cb1628b031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716989954616
+status: 4
+tags: []
+user_id: U087LXC

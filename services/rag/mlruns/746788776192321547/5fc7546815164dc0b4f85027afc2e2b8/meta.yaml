@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/746788776192321547/5fc7546815164dc0b4f85027afc2e2b8/artifacts
+end_time: 1716991272261
+entry_point_name: ''
+experiment_id: '746788776192321547'
+lifecycle_stage: active
+run_id: 5fc7546815164dc0b4f85027afc2e2b8
+run_name: gentle-pug-112
+run_uuid: 5fc7546815164dc0b4f85027afc2e2b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716991122099
+status: 4
+tags: []
+user_id: U087LXC

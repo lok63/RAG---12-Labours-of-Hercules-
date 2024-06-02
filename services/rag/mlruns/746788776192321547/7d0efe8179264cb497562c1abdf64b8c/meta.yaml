@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/746788776192321547/7d0efe8179264cb497562c1abdf64b8c/artifacts
+end_time: 1716993284137
+entry_point_name: ''
+experiment_id: '746788776192321547'
+lifecycle_stage: active
+run_id: 7d0efe8179264cb497562c1abdf64b8c
+run_name: treasured-gnat-518
+run_uuid: 7d0efe8179264cb497562c1abdf64b8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716993117788
+status: 4
+tags: []
+user_id: U087LXC

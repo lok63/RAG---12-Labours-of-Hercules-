@@ -1,0 +1,8 @@
+digest: 2c8448af
+name: dataset
+profile: '{"num_rows": 95, "num_elements": 190}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "Question", "required": true},
+  {"type": "string", "name": "Ground Truth", "required": true}]}'
+source: '{"tags": {"mlflow.user": "U087LXC", "mlflow.source.name": "/Users/U087LXC/PycharmProjects/HerculesLaboursRAG/services/rag/src/rag_evaluation/evaluate.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "21c53f9efa951d0c82c351a95ad87b6d81a8ef9c"}}'
+source_type: code

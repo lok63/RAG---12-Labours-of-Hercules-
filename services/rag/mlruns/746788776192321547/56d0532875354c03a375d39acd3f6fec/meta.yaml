@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/746788776192321547/56d0532875354c03a375d39acd3f6fec/artifacts
+end_time: 1716991552037
+entry_point_name: ''
+experiment_id: '746788776192321547'
+lifecycle_stage: active
+run_id: 56d0532875354c03a375d39acd3f6fec
+run_name: rambunctious-ox-892
+run_uuid: 56d0532875354c03a375d39acd3f6fec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716991406676
+status: 4
+tags: []
+user_id: U087LXC
