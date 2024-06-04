@@ -27,11 +27,4 @@ faithfulness_examples = [
     ),
 ]
 
-# faithfulness_metric = faithfulness(model="endpoints:/databricks-llama-2-70b-chat", examples=faithfulness_examples)
-faithfulness_metric = faithfulness(model="openai:/gpt-3.5-turbo-16k", examples=faithfulness_examples)
-# relevance_metric = relevance(model="endpoints:/databricks-llama-2-70b-chat")
-
-
-if __name__ == '__main__':
-    print(faithfulness_metric)
-    pass
+relevance_metric = relevance(model="openai:/gpt-3.5-turbo-16k", examples=faithfulness_examples)

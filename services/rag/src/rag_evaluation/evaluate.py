@@ -3,7 +3,8 @@ import pandas as pd
 
 from src.chains import get_in_memory_retriever_qa_chain
 from src.config import HERCULES_VALIDATION_SET
-from src.rag_evaluation.faithfulness_examples import faithfulness_metric, relevance_metric
+from src.rag_evaluation.context_precision import context_precision
+from src.rag_evaluation.faithfulness_examples import faithfulness_metric
 
 if __name__ == '__main__':
     eval_df = pd.read_csv(
@@ -53,11 +54,13 @@ if __name__ == '__main__':
             model_type="question-answering",
             evaluators="default",
             predictions="result",
-            extra_metrics=[faithfulness_metric, relevance_metric, mlflow.metrics.latency()],
+            # extra_metrics=[faithfulness_metric, relevance_metric, context_precision, mlflow.metrics.latency()],
+            extra_metrics=[context_precision],
             evaluator_config={
                 "col_mapping": {
                     "inputs": "Question",
                     "context": "source_documents",
+                    "ground_truth": "Ground Truth",
                 }
             },
         )
